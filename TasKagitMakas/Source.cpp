@@ -22,7 +22,7 @@ int main() {
 
 		pcSecim = rand() % 3 + 1;
 
-		//kullanıcı seçimini yazıya dökme
+		//kullanici seÃ§imini yaziya dÃ¶kme islemi
 		if (secim == 1)
 			secimYazi = "Tas";
 		else if (secim == 2)
@@ -30,7 +30,7 @@ int main() {
 		else
 			secimYazi = "Makas";
 
-		//bilgisayar seçimini yazıya dökme
+		//bilgisayar secimini yaziya dÃ¶kme islemi
 		if (pcSecim == 1)
 			pcSecimYazi = "Tas";
 		else if (pcSecim == 2)
@@ -38,7 +38,7 @@ int main() {
 		else
 			pcSecimYazi = "Makas";
 
-		//Kazananı belirleyen koşullar
+		//Kazanani belirleyen kosullar
 		if (secim == pcSecim) {
 			cout << secimYazi << " vs " << pcSecimYazi << " Sonuc : berabere\n" << endl;
 		}
